@@ -1,0 +1,325 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.containerbackground{
+    height: 100vh;
+    width: 100vw;
+     
+    }
+
+.containerbackground img{
+    object-fit:cover;
+    height: 100vh;
+    width: 100vw; 
+    position: relative;
+}
+
+.hero-parent{
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+}
+
+.hero{
+  display: flex;
+  width: 1800px;
+  justify-content: space-between;
+}
+
+.hero-left{
+  width: 500px;
+}
+
+.hero-left h1{
+  color: rgb(179, 136, 8);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero-left h4{
+  color: rgb(179, 136, 8);
+  font-size: xx-large;
+}
+
+.hero-left p{
+  color: white;
+  font-weight: 900;
+  font-size: 19px;
+  margin: -26px 0px;
+}
+
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  margin-top: 150px;
+}
+
+.hero-right button{
+  background: transparent;
+    color: white;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 150px;
+    font-size: larger;
+}
+
+.hero-right ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: x-large;
+
+}
+
+.hero-right ul li{
+  list-style: none;
+}
+
+.hero-right ul li img{
+    margin-left: 20px;
+    width: 17px;
+    height: 17px;
+}
+
+.bg-li{
+  font-weight: 600;
+  color: green;
+}
+
+nav{
+  display: flex;
+  top: 0;
+  height: 6.5rem;
+  width: 90%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  padding: 0 4rem;
+  align-items:center;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-ul ul{
+  display: flex;
+}
+
+.nav-ul ul li{
+  padding: 0 10px;
+  color: white;
+  list-style: none;
+}
+
+.search{
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.sign-up{
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 8px;
+  width: 80px;
+}
+
+.brand a{
+  text-decoration: none;
+  color: rgb(179, 136, 8) !important;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.wrapper{
+  display: grid;
+  gap: 40px 90px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1600px;
+  margin: 60px auto;
+}
+
+.top-movers{
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.box-shadow{
+  color: gray;
+  padding: 20px 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card_icon{
+    font-size: medium;
+    text-align: center;
+    background-color: #131f23;
+    color: white;
+    width: 170px;
+    padding: 6px;
+    margin-left: -29px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  padding: 8px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.cardimg{
+  width: 104%;
+  height: 150px;
+  margin: -18px -14px;
+}
+  
+.userImg{
+  width: 100px;
+  height: 100px;
+}
+
+.earningsGraph{
+  height: 88px;
+  width: 180px;
+}
+
+.userProfile{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.user{
+  display: flex;
+}
+
+.userEarnings ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+
+.userEarnings ul li{
+  list-style: none;
+}
+
+.userDetails{
+  color: gray;
+}
+
+.userDetails h4{
+  margin-bottom: -4px;
+  font-weight: bolder;
+}
+
+.userDetails p{
+  margin-bottom: -14px;
+}
+
+.graphli{
+  color: green;
+  margin-right: 3px;
+}
+
+.graphli img{
+  width: 17px;
+  height: 17px;
+}
+
+.component_Data{
+  margin-top: 40px;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: rgb(10, 194, 10);
+}
+
+footer{
+  background-color: #131f23;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 44px 0px;
+  color: white;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+.footer_logo .logo {
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+footer ul li {
+  color: grey;
+  list-style: none;
+  margin: 15px -40px;
+}
+
+footer h1 {
+  font-size: 23px;
+}
+label,
+td,
+th {
+  color: gray;
+}
